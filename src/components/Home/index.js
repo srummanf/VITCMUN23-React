@@ -7,6 +7,7 @@ import AboutVITCMUN from './3'
 import Letter from './4'
 import Footer from '../Footer'
 
+
 function Index() {
     return (
         <>
