@@ -4,7 +4,7 @@ import VITCMUN from '../../../assets/logo.png'
 function Index() {
     return (
         <>
-            <div className='flex bg-[#daccf9] items-center justify-center pt-5 pb-20 md:pt-40 md:pb-40 px-10  md:px-20 w-full'>
+            <div className='flex bg-[#daccf9] items-center justify-center pt-5 pb-20 md:pt-40 md:pb-40 px-10  md:px-20 w-screen'>
                 <div className='flex items-center justify-center md:justify-between md:flex-row flex-col-reverse '>
 
                     <div className=' flex items-center md:items-start justify-center flex-col gap-4 md:text-left text-center'>
@@ -16,7 +16,7 @@ function Index() {
                         </p>
                     </div>
                     <div className=' flex items-center justify-center'>
-                        <img src={VITCMUN} alt='' className='w-[90%]' />
+                        <img src={VITCMUN} alt='' className='w-[70%]' />
                     </div>
                 </div>
 

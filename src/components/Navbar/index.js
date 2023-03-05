@@ -24,11 +24,14 @@ const Navbar = () => {
       case "/about":
         setActiveOption(2);
         break;
-      case "/events":
+      case "/secretarait":
         setActiveOption(3);
         break;
-      case "/contact":
+      case "/committee":
         setActiveOption(4);
+        break;
+      case "/apply":
+        setActiveOption(5);
         break;
       default:
         setActiveOption(1);
@@ -59,7 +62,7 @@ const Navbar = () => {
                   to="/"
                   onClick={() => handleClick(1)}
                   id="navbar"
-                  className={`${activeOption === 1 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
+                  className={`${activeOption === 1 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
                 >
                   Home
                 </Link>
@@ -68,36 +71,36 @@ const Navbar = () => {
                   to="/about"
                   onClick={() => handleClick(2)}
                   id="navbar"
-                  className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
+                  className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
                 >
                   About
                 </Link>
 
                 <Link
-                  to="/about"
-                  onClick={() => handleClick(2)}
+                  to="/secretarait"
+                  onClick={() => handleClick(3)}
                   id="navbar"
-                  className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
-                >
-                  Apply
-                </Link>
-
-                <Link
-                  to="/about"
-                  onClick={() => handleClick(2)}
-                  id="navbar"
-                  className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
-                >
-                  Commitee
-                </Link>
-
-                <Link
-                  to="/about"
-                  onClick={() => handleClick(2)}
-                  id="navbar"
-                  className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
+                  className={`${activeOption === 3 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
                 >
                   Secretarait
+                </Link>
+
+                <Link
+                  to="/committee"
+                  onClick={() => handleClick(4)}
+                  id="navbar"
+                  className={`${activeOption === 4 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
+                >
+                  Committee
+                </Link>
+
+                <Link
+                  to="/apply"
+                  onClick={() => handleClick(5)}
+                  id="navbar"
+                  className={`${activeOption === 5 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-white'} text-white hover:text-[#AE50A4] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200`}
+                >
+                  Apply
                 </Link>
               </div>
             </div>
@@ -165,7 +168,7 @@ const Navbar = () => {
                 to="/"
                 onClick={() => handleClick(1)}
                 id="navbar"
-                className={`${activeOption === 1 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-900'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
+                className={`${activeOption === 1 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
               >
                 Home
               </Link>
@@ -178,29 +181,29 @@ const Navbar = () => {
                 About 
               </Link>
               <Link
-                to="/about"
-                onClick={() => handleClick(2)}
+                to="/secretarait"
+                onClick={() => handleClick(3)}
                 id="navbar"
-                className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
+                className={`${activeOption === 3 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
               >
-                Apply
+                Secretarait
               </Link>
               <Link
-                to="/about"
-                onClick={() => handleClick(2)}
+                to="/committee"
+                onClick={() => handleClick(4)}
                 id="navbar"
-                className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
+                className={`${activeOption === 4 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
               >
-                Commitee
+                Committee
               </Link>
 
               <Link
-                to="/about"
-                onClick={() => handleClick(2)}
+                to="/apply"
+                onClick={() => handleClick(5)}
                 id="navbar"
-                className={`${activeOption === 2 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
+                className={`${activeOption === 5 ? `${Styles.underlined} hover:text-[#AE50A4]` : 'text-gray-600'} hover:text-[#AE50A4] block px-3 py-2 rounded-md text-base font-medium`}
               >
-                Secretarait
+                Apply
               </Link>
 
 

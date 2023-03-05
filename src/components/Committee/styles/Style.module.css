@@ -1,0 +1,12 @@
+.bg_photo {
+  background-image: url("/src/assets/sec-bg.png");
+  background-color: black;
+}
+
+.heading {
+  font-family: "Cormorant", serif;
+}
+
+.bg {
+  background: rgba(112, 52, 150, 0.62);
+}

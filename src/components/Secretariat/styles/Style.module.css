@@ -1,0 +1,24 @@
+.bg_photo {
+  background-image: url("/src/assets/sec-bg.png");
+  background-color: black;
+}
+
+.heading {
+  font-family: "Cormorant", serif;
+}
+
+.card1 {
+  background: rgba(112, 52, 150, 0.62);
+}
+
+.card2 {
+  background: rgba(174, 80, 164, 0.47);
+}
+
+.generals {
+  background: rgba(183, 163, 230, 0.47);
+}
+
+.general_card {
+  color: rgba(112, 52, 150);
+}

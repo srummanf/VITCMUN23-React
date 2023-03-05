@@ -5,12 +5,13 @@ import Heading from './1'
 import WhatMUN from './2'
 import AboutVITCMUN from './3'
 import Letter from './4'
+import Footer from '../Footer'
 
 function Index() {
     return (
-        <div>
-            <>
-                <div className={`${Styles.bg_photo} bg-cover bg-center h-screen flex justify-center items-center`}
+        <>
+            <div className=''>
+                <div className={`${Styles.bg_photo} bg-cover bg-center h-screen flex justify-center items-center flex-col`}
                 >
                     <Navbar />
 
@@ -19,12 +20,12 @@ function Index() {
                         <WhatMUN />
                         <AboutVITCMUN />
                         <Letter />
+                        <Footer />
                     </div>
 
-
                 </div>
-            </>
-        </div>
+            </div>
+        </>
     )
 }
 

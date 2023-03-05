@@ -1,0 +1,91 @@
+.footer {
+  background-color: rgba(128, 60, 120, 0.8);
+  padding-top: 100px;
+  font-family: "Poppins", serif;
+}
+
+
+
+.footer_col h4 {
+  font-size: 18px;
+  color: white;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.footer_col h4::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  background-color: white;
+}
+
+.footer_col p {
+  color: white;
+  font-size: 15px;
+}
+
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa_map_marker:before {
+  content: "\f041";
+}
+
+.fa_envelope:before {
+  content: "\f0e0";
+}
+
+.fa_phone:before {
+  content: "\f095";
+}
+
+.fa_map_marker:before {
+  content: "\f041";
+}
+
+.footer_col .social a {
+  border: solid 1px white;
+  padding-top: 2px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  /* line-height: 40px; */
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.footer_col .social a:hover {
+    background: white;
+    color: rgba(128, 60, 120);
+}
+
+.footer_col .social a svg {
+    position: relative;
+    top: 30%;
+    left: 30%;
+
+}

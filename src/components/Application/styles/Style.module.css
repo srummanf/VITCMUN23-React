@@ -1,0 +1,22 @@
+.bg_photo {
+  background-image: url("/src/assets/apply-bg.png");
+  background-color: black;
+}
+
+.heading {
+  font-family: "Cormorant", serif;
+}
+
+.bg {
+  background: rgba(174, 80, 164, 0.47);
+}
+
+.button {
+  background: rgba(128, 60, 120, 0.5);
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: rgba(128, 60, 120, 0.781);
+  transition: all 0.3s;
+}

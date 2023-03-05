@@ -1,0 +1,8 @@
+.bg_photo {
+    background-image: url("/src/assets/about.png");
+    background-color: black;
+  }
+  
+  .heading {
+    font-family: "Cormorant", serif;
+  }

@@ -1,5 +1,8 @@
 import Home from './components/Home'
 import About from './components/About'
+import Secretarait from './components/Secretariat'
+import Committee from './components/Committee'
+import Apply from './components/Application'
 import ErrorPage from "./components/404"
 import React, { useState } from "react";
 import '../src/App.css';
@@ -21,6 +24,9 @@ function App() {
             <Routes>
               <Route index element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/secretarait" element={<Secretarait />} />
+              <Route path="/committee" element={<Committee />} />
+              <Route path="/apply" element={<Apply />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
           </BrowserRouter>
