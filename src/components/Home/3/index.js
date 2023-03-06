@@ -13,16 +13,16 @@ function Index() {
                         </h3>
                         <p className='max-w-4xl text-justify'>
                             VITCMUN, or Vellore Institute of Technology Chennai Model United
-      Nations, is an annual conference held at the Vellore Institute of
-      Technology, Chennai. It is a platform for students to engage in
-      simulated United Nations discussions and debates on global issues.
-      Participants are assigned different countries and must represent their
-      viewpoints and policies during the conference. VITC MUN provides a
-      unique opportunity for students to improve their public speaking and
-      negotiation skills, as well as learn more about international relations
-      and current events. It also encourages critical thinking and the ability
-      to understand different perspectives, making it an invaluable experience
-      for anyone interested in politics or diplomacy.
+                            Nations, is an annual conference held at the Vellore Institute of
+                            Technology, Chennai. It is a platform for students to engage in
+                            simulated United Nations discussions and debates on global issues.
+                            Participants are assigned different countries and must represent their
+                            viewpoints and policies during the conference. VITC MUN provides a
+                            unique opportunity for students to improve their public speaking and
+                            negotiation skills, as well as learn more about international relations
+                            and current events. It also encourages critical thinking and the ability
+                            to understand different perspectives, making it an invaluable experience
+                            for anyone interested in politics or diplomacy.
                         </p>
                     </div>
                     <div className=' flex items-center justify-center'>

@@ -12,8 +12,17 @@ function Index() {
                             About VITC MUN
                         </h3>
                         <p className='max-w-4xl text-justify'>
-                            Model United Nations IITI is back again with the focus of giving a platform to young, budding pioneers and pace-setters to address some of the very grave problems engulfing the world. An assorted collecton of UN committees to pursue, MUN IITI 6.0 offers an engaging opportunity for delegates wanting meaningful deliberaton. This MUN is an attempt to promote healthy discussion and debate on various conflicts and obstacles from a young perspective and provide rational and feasible fixes to the same. Our pool of dedicated MUN team will bring forth the most engaging motions aimed to facilitate the highest quality of debate.
-                        </p>
+                            VITCMUN, or Vellore Institute of Technology Chennai Model United
+                            Nations, is an annual conference held at the Vellore Institute of
+                            Technology, Chennai. It is a platform for students to engage in
+                            simulated United Nations discussions and debates on global issues.
+                            Participants are assigned different countries and must represent their
+                            viewpoints and policies during the conference. VITC MUN provides a
+                            unique opportunity for students to improve their public speaking and
+                            negotiation skills, as well as learn more about international relations
+                            and current events. It also encourages critical thinking and the ability
+                            to understand different perspectives, making it an invaluable experience
+                            for anyone interested in politics or diplomacy.                        </p>
                     </div>
                     <div className=' flex items-center justify-center'>
                         <img src={VITCMUN} alt='' className='w-[70%]' />
