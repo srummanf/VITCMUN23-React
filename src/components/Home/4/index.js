@@ -6,7 +6,7 @@ function Index() {
         <>
             <div className='flex items-center justify-center pt-5 pb-20 md:pb-0 px-10 md:py-40 md:px-20 w-screen'>
                 <div className='flex md:items-start justify-center md:flex-row flex-col gap-6'>
-                    <div className=' flex items-center justify-center md:w-1/2'>
+                    <div className=' flex items-center justify-center md:w-1/2 pb-5'>
                         <img src={photo} alt='' className='' />
                     </div>
                     <div className=' flex items-center justify-start flex-col gap-4 md:w-1/2'>
