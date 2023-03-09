@@ -1,5 +1,14 @@
 import React from 'react'
-import photo from '../../../assets/secretariat.png'
+import photo1 from '../../../assets/Secretrait Photos/1.jpg' 
+import photo2 from '../../../assets/Secretrait Photos/2.jpg' 
+import photo3 from '../../../assets/Secretrait Photos/3.jpg' 
+import photo4 from '../../../assets/Secretrait Photos/4.jpg' 
+import photo5 from '../../../assets/Secretrait Photos/5.jpg' 
+import photo6 from '../../../assets/Secretrait Photos/6.jpg' 
+import photo7 from '../../../assets/Secretrait Photos/7.jpg' 
+import photo8 from '../../../assets/Secretrait Photos/8.jpg'
+import photo9 from '../../../assets/Secretrait Photos/9.jpg' 
+import photo10 from '../../../assets/Secretrait Photos/10.jpg'  
 import Styles from '../styles/Style.module.css'
 
 function Index() {
@@ -11,13 +20,9 @@ function Index() {
             role: "Delegate Affairs",
             details: [
                 {
-                    image: photo,
-                    name: "TCA Varshini",
+                    image: photo9,
+                    name: "TCA Varshini & Kushagra Dhingra",
                 },
-                {
-                    image: photo,
-                    name: "Kushagra Dhingra",
-                }
             ]
         },
         {
@@ -25,12 +30,8 @@ function Index() {
             role: "EB Affairs",
             details: [
                 {
-                    image: photo,
-                    name: "Prisha Anand",
-                },
-                {
-                    image: photo,
-                    name: "Siva Narayan S A",
+                    image: photo7,
+                    name: "Prisha Anand & Siva Narayan S A",
                 },
             ]
         },
@@ -39,16 +40,8 @@ function Index() {
             role: "Social Media & Marketing",
             details: [
                 {
-                    image: photo,
-                    name: "Veenavarthini",
-                },
-                {
-                    image: photo,
-                    name: "Karthik Sabareesh",
-                },
-                {
-                    image: photo,
-                    name: "Ann Maria Thomson",
+                    image: photo1,
+                    name: "Veenavarthini, Karthik Sabareesh, Ann Maria Thomson",
                 },
             ]
         },
@@ -57,13 +50,9 @@ function Index() {
             role: "Sponsorship",
             details: [
                 {
-                    image: photo,
-                    name: "Aasish Mahesh",
+                    image: photo8,
+                    name: "Aasish Mahesh & Vasu Sumeet Seth",
                 },
-                {
-                    image: photo,
-                    name: "Vasu Sumeet Seth",
-                }
             ]
         },
         {
@@ -71,12 +60,8 @@ function Index() {
             role: "Tech",
             details: [
                 {
-                    image: photo,
-                    name: "Ojas Aklecha",
-                },
-                {
-                    image: photo,
-                    name: "Ronit Bokadia",
+                    image: photo8,
+                    name: "Ronit Bokadia & Ojas Aklecha",
                 }
             ]
         },
@@ -85,12 +70,8 @@ function Index() {
             role: "Finance",
             details: [
                 {
-                    image: photo,
-                    name: "Nitish R",
-                },
-                {
-                    image: photo,
-                    name: "Kamal Raj N",
+                    image: photo8,
+                    name: "Nitish R & Kamal Raj N",
                 }
             ]
         },
@@ -99,12 +80,8 @@ function Index() {
             role: "Internal Affairs",
             details: [
                 {
-                    image: photo,
+                    image: photo8,
                     name: "Narender Senthil",
-                },
-                {
-                    image: photo,
-                    name: "Shivangi Bhatawadekar",
                 }
             ]
         },
@@ -113,17 +90,9 @@ function Index() {
             role: "Logistics",
             details: [
                 {
-                    image: photo,
-                    name: "Krithik",
-                },
-                {
-                    image: photo,
-                    name: "Inban Azhagiri",
-                },
-                {
-                    image: photo,
-                    name: "Alan Immanuel",
-                },
+                    image: photo3,
+                    name: "Krithik, Inban Azhagiri, Alan Immanuel",
+                }
             ]
         },
         {
@@ -131,12 +100,8 @@ function Index() {
             role: "Hospitality",
             details: [
                 {
-                    image: photo,
-                    name: "Swetha B",
-                },
-                {
-                    image: photo,
-                    name: "Sushitha Ravisankar",
+                    image: photo6,
+                    name: "Swetha B & Sushitha Ravisankar",
                 }
             ]
         },
@@ -145,16 +110,8 @@ function Index() {
             role: "Content & Outreach",
             details: [
                 {
-                    image: photo,
-                    name: "Rifat",
-                },
-                {
-                    image: photo,
-                    name: "Suseema Devi",
-                },
-                {
-                    image: photo,
-                    name: "Akash P Videsh",
+                    image: photo2,
+                    name: "Akash P Videsh, Suseema Devi, Rifat",
                 }
             ]
         },
@@ -163,16 +120,8 @@ function Index() {
             role: "Design",
             details: [
                 {
-                    image: photo,
-                    name: "Trisha Vivek",
-                },
-                {
-                    image: photo,
-                    name: "Roshini Venkatesh",
-                },
-                {
-                    image: photo,
-                    name: "Harshadaavenkat",
+                    image: photo6,
+                    name: "Roshini Venkatesh & Harshadaavenkat",
                 }
             ]
         },
@@ -181,16 +130,8 @@ function Index() {
             role: "Photography",
             details: [
                 {
-                    image: photo,
-                    name: "Krishna T E",
-                },
-                {
-                    image: photo,
-                    name: "Jeffrey Simon M",
-                },
-                {
-                    image: photo,
-                    name: "Prabhu Shankar M",
+                    image: photo10,
+                    name: "Krishna T E, Prabhu Shankar M, Jeffrey Simon M",
                 }
             ]
         },
@@ -199,16 +140,8 @@ function Index() {
             role: "Videography",
             details: [
                 {
-                    image: photo,
-                    name: "Vignesh R",
-                },
-                {
-                    image: photo,
-                    name: "Aravindhan S",
-                },
-                {
-                    image: photo,
-                    name: "Fabin Prakash",
+                    image: photo4,
+                    name: "Vignesh R, Aravindhan S, Fabin Prakash",
                 }
             ]
         },
@@ -234,8 +167,8 @@ function Index() {
                                 <div className='flex items-center justify-center gap-6 w-full flex-col md:flex-row'>
                                     {
                                         roles.details.map((person) => (
-                                            <div className={`${Styles.general_card} flex items-start justify-center flex-col`}>
-                                                <img src={`${person.image}`} alt='' className='mb-3 w-60 h-60' />
+                                            <div className={`${Styles.general_card} flex items-center justify-center flex-col`}>
+                                                <img src={`${person.image}`} alt='' className='mb-3 w-80 h-80 object-cover' />
                                                 <h3 className='font-bold text-lg'>
                                                     {`${person.name}`}
                                                 </h3>
